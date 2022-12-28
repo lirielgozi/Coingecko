@@ -62,10 +62,10 @@ def euroPriceAvarage():
 
 
 def printPriceTotal():
-    usPriceAvarage()
-    euroPriceAvarage()
     printPriceUS()
     printPriceEuro()
+    usPriceAvarage()
+    euroPriceAvarage()
 
 
 printPriceTotal()
